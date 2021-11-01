@@ -38,12 +38,12 @@ function generaResumen() {
 }
 
 function limpiarCampos(){
-    let nombre = document.getElementById();
-    let apellido = document.getElementById();
-    let correo = document.getElementById();
-    let cantidad = document.getElementById();
-    let categoria  = document.getElementById();
-    let info = document.getElementById();
+    let nombre = document.getElementById("validationDefault01");
+    let apellido = document.getElementById("validationDefault02");
+    let correo = document.getElementById("validationDefaultUsername");
+    let cantidad = document.getElementById("validationDefault03");
+    let categoria  = document.getElementById("validationDefault04");
+    let info = document.getElementById("txtInfo");
     
     nombre.value = "";
     apellido.value = "";
@@ -51,4 +51,4 @@ function limpiarCampos(){
     cantidad.value = "";
     categoria.selectedIndex = 1;
     info.value = "Total a pagar: $";
-let}
+}
