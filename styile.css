@@ -139,3 +139,17 @@ footer{
     text-decoration: none;
 
 }
+
+.margen1{
+    margin-top: 2em;
+}
+
+#student{
+    border: 1px solid blue
+}
+#trainee{
+    border: 1px solid aqua
+}
+#junior{
+    border: 1px solid yellow
+}
